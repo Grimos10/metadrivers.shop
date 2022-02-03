@@ -1,20 +1,27 @@
 <template>
-  <section class="sec-100vh flexbox align-center justify-center">
-    <div id="about" class="half">
-      <h1 class="color-black font-size-5-5em nomargin"> MetaDrivers </h1>
-      <p class="margin top px20 font-size-1-5em line-height-1-5em">
-        MetaDrivers is a collection of recent and historical formula 1 drivers made in PixelArt. <br>
-        This collection includes my passion for F1 and NFT. All drivers are 32x32 pixels. Join the project and get your favorite driver! <br>
-        The collection will be updated periodically.
-      </p>
-      <button class="background-blue simple font-size-1em w-200px">
-        OpenSea <img style="filter: invert(1)" class="margin left px10" src="@/assets/opensea-dark.svg" />
-      </button>
-    </div>
-    <div class="half flexbox justify-end">
-      <img src="@/assets/img/vettel.png" class="border-radius-px10"/>
-    </div>
-  </section>
+  <div>
+    <section class="sec-100vh flexbox align-center justify-center w-75">
+      <div id="about" class="half">
+        <h1 class="color-black font-size-5-5em nomargin"> MetaDrivers </h1>
+        <p class="margin top px20 font-size-1-5em line-height-1-5em">
+          MetaDrivers is a collection of recent and historical formula 1 drivers made in PixelArt. <br>
+          This collection includes my passion for F1 and NFT. All drivers are 32x32 pixels. Join the project and get your favorite driver! <br>
+          The collection will be updated periodically.
+        </p>
+        <button class="background-blue simple font-size-1em w-200px" onclick="location.href='https://opensea.io/collection/metadrivers-collection';">
+          OpenSea <img style="filter: invert(1)" class="margin left px10" src="@/assets/opensea-dark.svg" />
+        </button>
+      </div>
+      <div class="half flexbox justify-end">
+        <img src="@/assets/img/vettel.png" class="border-radius-px10"/>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img src="@/assets/img/vettel.png" class="border-radius-px10 img-vw-20"/>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script lang="ts">
@@ -77,6 +84,10 @@ export default defineComponent({
     background: $blue !important;
     color: $white;
   }
+
+  .img-vw-20{
+    width: 20vw;
+  }
   
   .nomargin{
     margin: 0;
@@ -137,7 +148,9 @@ export default defineComponent({
 
   section{
     margin: 0 auto;
-    width: 75%;
+    &.w-75{
+      width: 75%;
+    }
     &.sec-100vh{
       height: 100vh;
     }
