@@ -8,17 +8,32 @@
           This collection includes my passion for F1 and NFT. All drivers are 32x32 pixels. Join the project and get your favorite driver! <br>
           The collection will be updated periodically.
         </p>
-        <button class="background-blue simple font-size-1em w-200px" onclick="location.href='https://opensea.io/collection/metadrivers-collection';">
+        <button class="simple font-size-1em w-200px" onclick="location.href='https://opensea.io/collection/metadrivers-collection';">
           OpenSea <img style="filter: invert(1)" class="margin left px10" src="@/assets/opensea-dark.svg" />
         </button>
       </div>
       <div class="half flexbox justify-end">
-        <img src="@/assets/img/vettel.png" class="border-radius-px10"/>
+        <img v-bind:src="img" class="border-radius-px10"/>
       </div>
     </section>
-    <section>
-      <div>
+    <section class="flexbox  w-75">
+      <div class="one-third text-center margin bottom px20">
+        <p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder">
+          Base
+        </p>
         <img src="@/assets/img/vettel.png" class="border-radius-px10 img-vw-20"/>
+      </div>
+      <div class="one-third text-center margin bottom px20">
+        <p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder">
+          World Champion
+        </p>
+        <img src="@/assets/img/verstappen.jpg" class="border-radius-px10 img-vw-20"/>
+      </div>
+      <div class="one-third text-center margin bottom px20">
+        <p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder">
+          Historical
+        </p>
+        <img src="@/assets/img/schumacher.png" class="border-radius-px10 img-vw-20"/>
       </div>
     </section>
   </div>
@@ -29,6 +44,24 @@ import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({
   setup() {
+
+    const nfts = ["schumacher.png", "verstappen.jpg", "vettel.png", "alonso.png", "bottas.png", "gasly.png", "giovinazzi.png", "hamilton.png", "latifi.png", "leclerc.png", "mazepin.png", "norris.png", "ocon.png", "perez.png", "raikkonen.png", "ricciardo.png", "russell.png", "sainz.png", "schumacher-jr.png", "stroll.png", "tsunoda.png"];
+    
+    let img = `@/assets/img/${nfts[0]}`;
+    let i = 0;
+
+    setInterval(() => {
+      
+      img = `@/assets/img/${nfts[i++]}`
+
+    }, 2000)
+
+    return{
+
+      img
+
+    }
+
     
   }
 })
@@ -41,6 +74,7 @@ export default defineComponent({
   $black: #3d3d3d;
   $blue: #3742fa;
   $white: #fefefe;
+  $hover-color: #fa3741;
 
   body{
     margin: 0;
@@ -52,6 +86,9 @@ export default defineComponent({
 
   .color-black{
     color: $black;
+  }
+  .font-size-2em{
+    font-size: 2em;
   }
   .font-size-3-5em{
     font-size: 3.5em;
@@ -77,16 +114,22 @@ export default defineComponent({
   .half{
     width: 50%;
   }
+  .one-third{
+    width: 33%;
+  }
   .text-justify{
     text-align: justify;
   }
-  .background-blue{
-    background: $blue !important;
-    color: $white;
+  .text-center{
+    text-align: center;
+    &.align-center{
+      align-items: center;
+    }
   }
 
   .img-vw-20{
     width: 20vw;
+    height: 20vw;
   }
   
   .nomargin{
@@ -160,8 +203,13 @@ export default defineComponent({
     &.simple{
       border-radius: 5px;
       border: none;
-      background: none;
       padding: 20px;
+      background: $blue;
+      color: $white;
+      transition-duration: 0.3s;
+      &:hover{
+        background: $hover-color;
+      }
     }
     &.w-300px{
       width: 200px;

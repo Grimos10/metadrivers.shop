@@ -1,6 +1,28 @@
 exports.ids = ["pages/index"];
 exports.modules = {
 
+/***/ "./assets/img/schumacher.png":
+/*!***********************************!*\
+  !*** ./assets/img/schumacher.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/schumacher.png";
+
+/***/ }),
+
+/***/ "./assets/img/verstappen.jpg":
+/*!***********************************!*\
+  !*** ./assets/img/verstappen.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/verstappen.jpg";
+
+/***/ }),
+
 /***/ "./assets/img/vettel.png":
 /*!*******************************!*\
   !*** ./assets/img/vettel.png ***!
@@ -36,7 +58,7 @@ var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/@nuxt/
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
 ___CSS_LOADER_EXPORT___.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Source+Sans+Pro:wght@300;400&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "body {\n  margin: 0;\n}\nh1, h2, h3, h4, h5, h6 {\n  font-family: \"Outfit\", sans-serif;\n}\np, span {\n  font-family: \"Source Sans Pro\", sans-serif;\n}\n.color-black {\n  color: #3d3d3d;\n}\n.font-size-3-5em {\n  font-size: 3.5em;\n}\n.font-size-5-5em {\n  font-size: 5.5em;\n}\n.font-size-1em {\n  font-size: 1em;\n}\n.font-size-1-5em {\n  font-size: 1.5em;\n}\n.font-weight-lighter {\n  font-weight: lighter;\n}\n.font-weight-bolder {\n  font-weight: bolder;\n}\n.line-height-1-5em {\n  line-height: 1.5em;\n}\n.half {\n  width: 50%;\n}\n.text-justify {\n  text-align: justify;\n}\n.background-blue {\n  background: #3742fa !important;\n  color: #fefefe;\n}\n.img-vw-20 {\n  width: 20vw;\n}\n.nomargin {\n  margin: 0;\n}\n.margin.top.px20 {\n  margin-top: 20px;\n}\n.margin.top.px10 {\n  margin-top: 10px;\n}\n.margin.bottom.px20 {\n  margin-bottom: 20px;\n}\n.margin.bottom.px10 {\n  margin-bottom: 10px;\n}\n.margin.left.px20 {\n  margin-left: 20px;\n}\n.margin.left.px10 {\n  margin-left: 10px;\n}\n.margin.right.px20 {\n  margin-right: 20px;\n}\n.margin.right.px10 {\n  margin-right: 10px;\n}\n.border-radius-px10 {\n  border-radius: 10px;\n}\n.flexbox {\n  display: flex;\n}\n.flexbox.justify-center {\n  justify-content: center;\n}\n.flexbox.justify-end {\n  justify-content: flex-end;\n}\n.flexbox.align-center {\n  align-items: center;\n}\nsection {\n  margin: 0 auto;\n}\nsection.w-75 {\n  width: 75%;\n}\nsection.sec-100vh {\n  height: 100vh;\n}\nbutton.simple {\n  border-radius: 5px;\n  border: none;\n  background: none;\n  padding: 20px;\n}\nbutton.w-300px {\n  width: 200px;\n}", "",{"version":3,"sources":["webpack://./pages/index.vue"],"names":[],"mappings":"AA4CA;EACE,SAAA;AA1CF;AA4CA;EACE,iCAAA;AAzCF;AA2CA;EAAS,0CAAA;AAvCT;AAyCA;EACE,cAbM;AAzBR;AAwCA;EACE,gBAAA;AArCF;AAuCA;EACE,gBAAA;AApCF;AAsCA;EACE,cAAA;AAnCF;AAqCA;EACE,gBAAA;AAlCF;AAoCA;EACE,oBAAA;AAjCF;AAmCA;EACE,mBAAA;AAhCF;AAkCA;EACE,kBAAA;AA/BF;AAiCA;EACE,UAAA;AA9BF;AAgCA;EACE,mBAAA;AA7BF;AA+BA;EACE,8BAAA;EACA,cA1CM;AAcR;AA+BA;EACE,WAAA;AA5BF;AA+BA;EACE,SAAA;AA5BF;AAgCI;EACE,gBAAA;AA7BN;AA+BI;EACE,gBAAA;AA7BN;AAiCI;EACE,mBAAA;AA/BN;AAiCI;EACE,mBAAA;AA/BN;AAoCI;EACE,iBAAA;AAlCN;AAoCI;EACE,iBAAA;AAlCN;AAuCI;EACE,kBAAA;AArCN;AAuCI;EACE,kBAAA;AArCN;AA0CA;EACE,mBAAA;AAvCF;AA0CA;EACE,aAAA;AAvCF;AAwCE;EACE,uBAAA;AAtCJ;AAwCE;EACE,yBAAA;AAtCJ;AAwCE;EACE,mBAAA;AAtCJ;AA0CA;EACE,cAAA;AAvCF;AAwCE;EACE,UAAA;AAtCJ;AAwCE;EACE,aAAA;AAtCJ;AA2CE;EACE,kBAAA;EACA,YAAA;EACA,gBAAA;EACA,aAAA;AAxCJ;AA0CE;EACE,YAAA;AAxCJ","sourcesContent":["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Source+Sans+Pro:wght@300;400&display=swap');\n\n$black: #3d3d3d;\n$blue: #3742fa;\n$white: #fefefe;\n\nbody{\n  margin: 0;\n}\nh1,h2,h3,h4,h5,h6{ \n  font-family: 'Outfit', sans-serif; \n}\np, span{ font-family: 'Source Sans Pro', sans-serif; }\n\n.color-black{\n  color: $black;\n}\n.font-size-3-5em{\n  font-size: 3.5em;\n}\n.font-size-5-5em{\n  font-size: 5.5em;\n}\n.font-size-1em{\n  font-size: 1em;\n}\n.font-size-1-5em{\n  font-size: 1.5em;\n}\n.font-weight-lighter{\n  font-weight: lighter;\n}\n.font-weight-bolder{\n  font-weight: bolder;\n}\n.line-height-1-5em{\n  line-height: 1.5em;\n}\n.half{\n  width: 50%;\n}\n.text-justify{\n  text-align: justify;\n}\n.background-blue{\n  background: $blue !important;\n  color: $white;\n}\n\n.img-vw-20{\n  width: 20vw;\n}\n\n.nomargin{\n  margin: 0;\n}\n.margin{\n  &.top{\n    &.px20{\n      margin-top: 20px;\n    }\n    &.px10{\n      margin-top: 10px;\n    }\n  }\n  &.bottom{\n    &.px20{\n      margin-bottom: 20px;\n    }\n    &.px10{\n      margin-bottom: 10px;\n    }\n  }\n\n  &.left{\n    &.px20{\n      margin-left: 20px;\n    }\n    &.px10{\n      margin-left: 10px;\n    }\n  }\n\n  &.right{\n    &.px20{\n      margin-right: 20px;\n    }\n    &.px10{\n      margin-right: 10px;\n    }\n  }\n}\n\n.border-radius-px10{\n  border-radius: 10px;\n}\n\n.flexbox{\n  display: flex;\n  &.justify-center{\n    justify-content: center;\n  }\n  &.justify-end{\n    justify-content: flex-end;\n  }\n  &.align-center{\n    align-items: center;\n  }\n}\n\nsection{\n  margin: 0 auto;\n  &.w-75{\n    width: 75%;\n  }\n  &.sec-100vh{\n    height: 100vh;\n  }\n}\n\nbutton{\n  &.simple{\n    border-radius: 5px;\n    border: none;\n    background: none;\n    padding: 20px;\n  }\n  &.w-300px{\n    width: 200px;\n  }\n}\n\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "body {\n  margin: 0;\n}\nh1, h2, h3, h4, h5, h6 {\n  font-family: \"Outfit\", sans-serif;\n}\np, span {\n  font-family: \"Source Sans Pro\", sans-serif;\n}\n.color-black {\n  color: #3d3d3d;\n}\n.font-size-2em {\n  font-size: 2em;\n}\n.font-size-3-5em {\n  font-size: 3.5em;\n}\n.font-size-5-5em {\n  font-size: 5.5em;\n}\n.font-size-1em {\n  font-size: 1em;\n}\n.font-size-1-5em {\n  font-size: 1.5em;\n}\n.font-weight-lighter {\n  font-weight: lighter;\n}\n.font-weight-bolder {\n  font-weight: bolder;\n}\n.line-height-1-5em {\n  line-height: 1.5em;\n}\n.half {\n  width: 50%;\n}\n.one-third {\n  width: 33%;\n}\n.text-justify {\n  text-align: justify;\n}\n.text-center {\n  text-align: center;\n}\n.text-center.align-center {\n  align-items: center;\n}\n.img-vw-20 {\n  width: 20vw;\n  height: 20vw;\n}\n.nomargin {\n  margin: 0;\n}\n.margin.top.px20 {\n  margin-top: 20px;\n}\n.margin.top.px10 {\n  margin-top: 10px;\n}\n.margin.bottom.px20 {\n  margin-bottom: 20px;\n}\n.margin.bottom.px10 {\n  margin-bottom: 10px;\n}\n.margin.left.px20 {\n  margin-left: 20px;\n}\n.margin.left.px10 {\n  margin-left: 10px;\n}\n.margin.right.px20 {\n  margin-right: 20px;\n}\n.margin.right.px10 {\n  margin-right: 10px;\n}\n.border-radius-px10 {\n  border-radius: 10px;\n}\n.flexbox {\n  display: flex;\n}\n.flexbox.justify-center {\n  justify-content: center;\n}\n.flexbox.justify-end {\n  justify-content: flex-end;\n}\n.flexbox.align-center {\n  align-items: center;\n}\nsection {\n  margin: 0 auto;\n}\nsection.w-75 {\n  width: 75%;\n}\nsection.sec-100vh {\n  height: 100vh;\n}\nbutton.simple {\n  border-radius: 5px;\n  border: none;\n  padding: 20px;\n  background: #3742fa;\n  color: #fefefe;\n  transition-duration: 0.3s;\n}\nbutton.simple:hover {\n  background: #fa3741;\n}\nbutton.w-300px {\n  width: 200px;\n}", "",{"version":3,"sources":["webpack://./pages/index.vue"],"names":[],"mappings":"AA8EA;EACE,SAAA;AA5EF;AA8EA;EACE,iCAAA;AA3EF;AA6EA;EAAS,0CAAA;AAzET;AA2EA;EACE,cAdM;AA1DR;AA0EA;EACE,cAAA;AAvEF;AAyEA;EACE,gBAAA;AAtEF;AAwEA;EACE,gBAAA;AArEF;AAuEA;EACE,cAAA;AApEF;AAsEA;EACE,gBAAA;AAnEF;AAqEA;EACE,oBAAA;AAlEF;AAoEA;EACE,mBAAA;AAjEF;AAmEA;EACE,kBAAA;AAhEF;AAkEA;EACE,UAAA;AA/DF;AAiEA;EACE,UAAA;AA9DF;AAgEA;EACE,mBAAA;AA7DF;AA+DA;EACE,kBAAA;AA5DF;AA6DE;EACE,mBAAA;AA3DJ;AA+DA;EACE,WAAA;EACA,YAAA;AA5DF;AA+DA;EACE,SAAA;AA5DF;AAgEI;EACE,gBAAA;AA7DN;AA+DI;EACE,gBAAA;AA7DN;AAiEI;EACE,mBAAA;AA/DN;AAiEI;EACE,mBAAA;AA/DN;AAoEI;EACE,iBAAA;AAlEN;AAoEI;EACE,iBAAA;AAlEN;AAuEI;EACE,kBAAA;AArEN;AAuEI;EACE,kBAAA;AArEN;AA0EA;EACE,mBAAA;AAvEF;AA0EA;EACE,aAAA;AAvEF;AAwEE;EACE,uBAAA;AAtEJ;AAwEE;EACE,yBAAA;AAtEJ;AAwEE;EACE,mBAAA;AAtEJ;AA0EA;EACE,cAAA;AAvEF;AAwEE;EACE,UAAA;AAtEJ;AAwEE;EACE,aAAA;AAtEJ;AA2EE;EACE,kBAAA;EACA,YAAA;EACA,aAAA;EACA,mBApIG;EAqIH,cApII;EAqIJ,yBAAA;AAxEJ;AAyEI;EACE,mBAtIQ;AA+Dd;AA0EE;EACE,YAAA;AAxEJ","sourcesContent":["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Source+Sans+Pro:wght@300;400&display=swap');\n\n$black: #3d3d3d;\n$blue: #3742fa;\n$white: #fefefe;\n$hover-color: #fa3741;\n\nbody{\n  margin: 0;\n}\nh1,h2,h3,h4,h5,h6{ \n  font-family: 'Outfit', sans-serif; \n}\np, span{ font-family: 'Source Sans Pro', sans-serif; }\n\n.color-black{\n  color: $black;\n}\n.font-size-2em{\n  font-size: 2em;\n}\n.font-size-3-5em{\n  font-size: 3.5em;\n}\n.font-size-5-5em{\n  font-size: 5.5em;\n}\n.font-size-1em{\n  font-size: 1em;\n}\n.font-size-1-5em{\n  font-size: 1.5em;\n}\n.font-weight-lighter{\n  font-weight: lighter;\n}\n.font-weight-bolder{\n  font-weight: bolder;\n}\n.line-height-1-5em{\n  line-height: 1.5em;\n}\n.half{\n  width: 50%;\n}\n.one-third{\n  width: 33%;\n}\n.text-justify{\n  text-align: justify;\n}\n.text-center{\n  text-align: center;\n  &.align-center{\n    align-items: center;\n  }\n}\n\n.img-vw-20{\n  width: 20vw;\n  height: 20vw;\n}\n\n.nomargin{\n  margin: 0;\n}\n.margin{\n  &.top{\n    &.px20{\n      margin-top: 20px;\n    }\n    &.px10{\n      margin-top: 10px;\n    }\n  }\n  &.bottom{\n    &.px20{\n      margin-bottom: 20px;\n    }\n    &.px10{\n      margin-bottom: 10px;\n    }\n  }\n\n  &.left{\n    &.px20{\n      margin-left: 20px;\n    }\n    &.px10{\n      margin-left: 10px;\n    }\n  }\n\n  &.right{\n    &.px20{\n      margin-right: 20px;\n    }\n    &.px10{\n      margin-right: 10px;\n    }\n  }\n}\n\n.border-radius-px10{\n  border-radius: 10px;\n}\n\n.flexbox{\n  display: flex;\n  &.justify-center{\n    justify-content: center;\n  }\n  &.justify-end{\n    justify-content: flex-end;\n  }\n  &.align-center{\n    align-items: center;\n  }\n}\n\nsection{\n  margin: 0 auto;\n  &.w-75{\n    width: 75%;\n  }\n  &.sec-100vh{\n    height: 100vh;\n  }\n}\n\nbutton{\n  &.simple{\n    border-radius: 5px;\n    border: none;\n    padding: 20px;\n    background: $blue;\n    color: $white;\n    transition-duration: 0.3s;\n    &:hover{\n      background: $hover-color;\n    }\n  }\n  &.w-300px{\n    width: 200px;\n  }\n}\n\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {};
 module.exports = ___CSS_LOADER_EXPORT___;
@@ -56,7 +78,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _vue_composition_api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue/composition-api */ "./node_modules/@vue/composition-api/dist/vue-composition-api.mjs");
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(_vue_composition_api__WEBPACK_IMPORTED_MODULE_0__["defineComponent"])({
-  setup() {}
+  setup() {
+    const nfts = ["schumacher.png", "verstappen.jpg", "vettel.png", "alonso.png", "bottas.png", "gasly.png", "giovinazzi.png", "hamilton.png", "latifi.png", "leclerc.png", "mazepin.png", "norris.png", "ocon.png", "perez.png", "raikkonen.png", "ricciardo.png", "russell.png", "sainz.png", "schumacher-jr.png", "stroll.png", "tsunoda.png"];
+    let img = `@/assets/img/${nfts[0]}`;
+    let i = 0;
+    setInterval(() => {
+      img = `@/assets/img/${nfts[i++]}`;
+    }, 2000);
+    return {
+      img
+    };
+  }
 
 }));
 
@@ -79,12 +111,16 @@ var render = function () {
   var _c = _vm._self._c || _h
   return _c("div", [
     _vm._ssrNode(
-      '<section class="sec-100vh flexbox align-center justify-center w-75"><div id="about" class="half"><h1 class="color-black font-size-5-5em nomargin"> MetaDrivers </h1> <p class="margin top px20 font-size-1-5em line-height-1-5em">\n        MetaDrivers is a collection of recent and historical formula 1 drivers made in PixelArt. <br>\n        This collection includes my passion for F1 and NFT. All drivers are 32x32 pixels. Join the project and get your favorite driver! <br>\n        The collection will be updated periodically.\n      </p> <button onclick="location.href=\'https://opensea.io/collection/metadrivers-collection\';" class="background-blue simple font-size-1em w-200px">\n        OpenSea <img' +
+      '<section class="sec-100vh flexbox align-center justify-center w-75"><div id="about" class="half"><h1 class="color-black font-size-5-5em nomargin"> MetaDrivers </h1> <p class="margin top px20 font-size-1-5em line-height-1-5em">\n        MetaDrivers is a collection of recent and historical formula 1 drivers made in PixelArt. <br>\n        This collection includes my passion for F1 and NFT. All drivers are 32x32 pixels. Join the project and get your favorite driver! <br>\n        The collection will be updated periodically.\n      </p> <button onclick="location.href=\'https://opensea.io/collection/metadrivers-collection\';" class="simple font-size-1em w-200px">\n        OpenSea <img' +
         _vm._ssrAttr("src", __webpack_require__(/*! @/assets/opensea-dark.svg */ "./assets/opensea-dark.svg")) +
         ' class="margin left px10" style="filter: invert(1)"></button></div> <div class="half flexbox justify-end"><img' +
+        _vm._ssrAttr("src", _vm.img) +
+        ' class="border-radius-px10"></div></section> <section class="flexbox  w-75"><div class="one-third text-center margin bottom px20"><p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder">\n        Base\n      </p> <img' +
         _vm._ssrAttr("src", __webpack_require__(/*! @/assets/img/vettel.png */ "./assets/img/vettel.png")) +
-        ' class="border-radius-px10"></div></section> <section><div><img' +
-        _vm._ssrAttr("src", __webpack_require__(/*! @/assets/img/vettel.png */ "./assets/img/vettel.png")) +
+        ' class="border-radius-px10 img-vw-20"></div> <div class="one-third text-center margin bottom px20"><p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder">\n        World Champion\n      </p> <img' +
+        _vm._ssrAttr("src", __webpack_require__(/*! @/assets/img/verstappen.jpg */ "./assets/img/verstappen.jpg")) +
+        ' class="border-radius-px10 img-vw-20"></div> <div class="one-third text-center margin bottom px20"><p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder">\n        Historical\n      </p> <img' +
+        _vm._ssrAttr("src", __webpack_require__(/*! @/assets/img/schumacher.png */ "./assets/img/schumacher.png")) +
         ' class="border-radius-px10 img-vw-20"></div></section>'
     ),
   ])
