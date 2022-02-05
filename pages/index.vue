@@ -2,7 +2,10 @@
   <div>
     <header id="navbar" class="w-85 position-fixed flexbox justify-between align-center">
       <span class="source-sans font-size-1-25em"> <b> metadrivers </b> </span>
-      <span class="source-sans font-size-1-25em"> social </span>
+      <div> 
+        <a href="https://www.instagram.com/metadrivers.ig/"><font-awesome-icon class="fa-2x margin right px10" :icon="['fab', 'instagram']"/></a>
+        <a href="https://twitter.com/DriversMeta"><font-awesome-icon class="fa-2x" :icon="['fab', 'twitter']"/></a>
+      </div>
     </header>
     <section class="sec-100vh flexbox align-center justify-center w-85 wrap resp-display-block resp-margin top px100">
       <div id="about" class="half resp-w-100 resp-no-min-width">
@@ -23,7 +26,7 @@
         <img v-bind:src="img" class="border-radius-px10 img-vw-30 min-width-300px resp-w-70"/>
       </div>
     </section>
-    <!--<section class="flexbox w-85">
+    <section class="flexbox w-85">
       <div class="one-third text-center margin bottom px20">
         <p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder">
           Base
@@ -42,7 +45,7 @@
         </p>
         <img src="@/assets/img/schumacher.png" class="border-radius-px10 img-vw-20"/>
       </div>
-    </section>-->
+    </section>
   </div>
 </template>
 
@@ -84,7 +87,7 @@ export default defineComponent({
       
       img.value = nfts[i++ % nfts.length];
 
-    }, 500)
+    }, 1000)
 
     return{
       img
@@ -162,12 +165,17 @@ export default defineComponent({
     }
   }
 
+  a{
+    color: $blue !important;
+  }
+
   #navbar{
     height: 80px;
     top: 0;
     left: 0;
     right: 0;
     margin: auto;
+    background: $white;
     // border-bottom: 1px solid $black;
   }
   .position-fixed{
