@@ -147,7 +147,7 @@ server.listen(listenAddress, () => {
   });
 });
 
-const STATIC_ASSETS_BASE = "/_nuxt/static" + "/" + "1644062637";
+const STATIC_ASSETS_BASE = "/_nuxt/static" + "/" + "1644074858";
 const PAYLOAD_JS = "/payload.js";
 const getClientManifest = cachedImport(() => import('/home/macca/customers/metadrivers.shop/.nuxt/dist/server/client.manifest.mjs'));
 const getSSRApp = cachedImport(() => import('/home/macca/customers/metadrivers.shop/.nuxt/dist/server/server.mjs'));

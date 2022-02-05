@@ -1,9 +1,16 @@
 <template>
   <div>
-    <section class="sec-100vh flexbox align-center justify-center w-75">
-      <div id="about" class="half">
-        <h1 class="color-black font-size-5-5em nomargin"> MetaDrivers </h1>
-        <p class="margin top px20 font-size-1-5em line-height-1-5em">
+    <header id="navbar" class="w-85 position-fixed flexbox justify-between align-center">
+      <span class="source-sans font-size-1-25em"> <b> metadrivers </b> </span>
+      <span class="source-sans font-size-1-25em"> social </span>
+    </header>
+    <section class="sec-100vh flexbox align-center justify-center w-85 wrap resp-display-block resp-margin top px100">
+      <div id="about" class="half resp-w-100 resp-no-min-width">
+        <h1 class="color-black font-size-5-5em nomargin resp-4-5em"> 
+            <span style="display: inline-block; margin-right: -12.5px;"> Meta </span>
+            <span> Drivers </span>
+        </h1>
+        <p class="margin top px20 font-size-1-5em line-height-1-5em resp-justify resp-3vw">
           MetaDrivers is a collection of recent and historical formula 1 drivers made in PixelArt. <br>
           This collection includes my passion for F1 and NFT. All drivers are 32x32 pixels. Join the project and get your favorite driver! <br>
           The collection will be updated periodically.
@@ -12,11 +19,11 @@
           OpenSea <img style="filter: invert(1)" class="margin left px10" src="@/assets/opensea-dark.svg" />
         </button>
       </div>
-      <div class="half flexbox justify-end">
-        <img v-bind:src="img" class="border-radius-px10"/>
+      <div class="half flexbox justify-end resp-justify-center resp-w-100 resp-margin top px60 resp-no-min-width">
+        <img v-bind:src="img" class="border-radius-px10 img-vw-30 min-width-300px resp-w-70"/>
       </div>
     </section>
-    <section class="flexbox  w-75">
+    <!--<section class="flexbox w-85">
       <div class="one-third text-center margin bottom px20">
         <p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder">
           Base
@@ -35,7 +42,7 @@
         </p>
         <img src="@/assets/img/schumacher.png" class="border-radius-px10 img-vw-20"/>
       </div>
-    </section>
+    </section>-->
   </div>
 </template>
 
@@ -52,7 +59,7 @@ export default defineComponent({
         "vettel.png", 
         "alonso.png",
         "bottas.png", 
-        "gasly.png", 
+        "gasly.png",
         "giovinazzi.png", 
         "hamilton.png", 
         "latifi.png", 
@@ -103,8 +110,11 @@ export default defineComponent({
   h1,h2,h3,h4,h5,h6{ 
     font-family: 'Outfit', sans-serif; 
   }
-  p, span{ font-family: 'Source Sans Pro', sans-serif; }
-
+  p{ font-family: 'Source Sans Pro', sans-serif; }
+  .source-sans{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
   .color-black{
     color: $black;
   }
@@ -120,6 +130,9 @@ export default defineComponent({
   .font-size-1em{
     font-size: 1em;
   }
+  .font-size-1-25em{
+    font-size: 1.25em;
+  }
   .font-size-1-5em{
     font-size: 1.5em;
   }
@@ -134,6 +147,7 @@ export default defineComponent({
   }
   .half{
     width: 50%;
+    min-width: 400px;
   }
   .one-third{
     width: 33%;
@@ -148,9 +162,30 @@ export default defineComponent({
     }
   }
 
+  #navbar{
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    // border-bottom: 1px solid $black;
+  }
+  .position-fixed{
+    position: fixed;
+  }
+
+
   .img-vw-20{
     width: 20vw;
-    height: 20vw;
+  }
+  .img-vw-40{
+    width: 40vw;
+  }
+  .img-vw-30{
+    width: 30vw;
+  }
+  .min-width-300px{
+    min-width: 300px;
   }
   
   .nomargin{
@@ -202,19 +237,25 @@ export default defineComponent({
     &.justify-center{
       justify-content: center;
     }
+    &.justify-between{
+      justify-content: space-between;
+    }
     &.justify-end{
       justify-content: flex-end;
     }
     &.align-center{
       align-items: center;
     }
+    &.wrap{
+      flex-wrap: wrap;
+    }
   }
 
+  .w-85{
+    width: 85%;
+  }
   section{
     margin: 0 auto;
-    &.w-75{
-      width: 75%;
-    }
     &.sec-100vh{
       height: 100vh;
     }
@@ -235,6 +276,82 @@ export default defineComponent({
     &.w-300px{
       width: 200px;
     }
+  }
+
+  @media screen and (max-width: 940px){
+
+    .resp-w-100{
+      width: 100% !important;
+    }
+    .resp-w-70{
+      width: 70% !important;
+    }
+    .resp-justify{
+      text-align: justify !important;
+    }
+    .resp-3-5em{
+      font-size: 3.5em;
+    }
+    .resp-4-5em{
+      font-size: 4.5em;
+    }
+    .resp-display-block{
+      display: block;
+    }
+    .resp-no-min-width{
+      min-width: 0;
+    }
+    .resp-margin{
+      &.top{
+        &.px20{
+          margin-top: 20px;
+        }
+        &.px60{
+          margin-top: 60px;
+        }
+        &.px100{
+          margin-top: 100px;
+        }
+        &.px10{
+          margin-top: 10px;
+        }
+    }
+    &.bottom{
+      &.px20{
+        margin-bottom: 20px;
+      }
+      &.px10{
+        margin-bottom: 10px;
+      }
+    }
+
+    &.left{
+      &.px20{
+        margin-left: 20px;
+      }
+      &.px10{
+        margin-left: 10px;
+      }
+    }
+
+    &.right{
+      &.px20{
+        margin-right: 20px;
+      }
+      &.px10{
+        margin-right: 10px;
+      }
+    }
+    }
+    .flexbox{
+      &.resp-justify-center{
+        justify-content: center;
+      }
+      &.resp-align-start{
+        align-items: flex-start;
+      }
+    }
+
   }
 
 </style>
