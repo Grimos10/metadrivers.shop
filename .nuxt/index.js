@@ -12,11 +12,11 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_9b003d9c from 'nuxt_plugin_plugin_9b003d9c' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_runtimeappplugin4ca21e2a_04e622bc from 'nuxt_plugin_runtimeappplugin4ca21e2a_04e622bc' // Source: ./runtime.app.plugin.4ca21e2a.mjs (mode: 'all')
-import nuxt_plugin_capiplugin_5760894b from 'nuxt_plugin_capiplugin_5760894b' // Source: ./capi.plugin.mjs (mode: 'all')
-import nuxt_plugin_nitrobridgeserver_56962872 from 'nuxt_plugin_nitrobridgeserver_56962872' // Source: ./nitro-bridge.server.mjs (mode: 'server')
-import nuxt_plugin_nitroclient_7a1bb99c from 'nuxt_plugin_nitroclient_7a1bb99c' // Source: ./nitro.client.mjs (mode: 'client')
+import nuxt_plugin_plugin_ac7033b2 from 'nuxt_plugin_plugin_ac7033b2' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_runtimeappplugin76f8afd6_ff959028 from 'nuxt_plugin_runtimeappplugin76f8afd6_ff959028' // Source: ./runtime.app.plugin.76f8afd6.mjs (mode: 'all')
+import nuxt_plugin_capiplugin_3f4c7f36 from 'nuxt_plugin_capiplugin_3f4c7f36' // Source: ./capi.plugin.mjs (mode: 'all')
+import nuxt_plugin_nitrobridgeserver_86e1f946 from 'nuxt_plugin_nitrobridgeserver_86e1f946' // Source: ./nitro-bridge.server.mjs (mode: 'server')
+import nuxt_plugin_nitroclient_4ef62ab2 from 'nuxt_plugin_nitroclient_4ef62ab2' // Source: ./nitro.client.mjs (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -182,24 +182,24 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_9b003d9c === 'function') {
-    await nuxt_plugin_plugin_9b003d9c(app.context, inject)
+  if (typeof nuxt_plugin_plugin_ac7033b2 === 'function') {
+    await nuxt_plugin_plugin_ac7033b2(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_runtimeappplugin4ca21e2a_04e622bc === 'function') {
-    await nuxt_plugin_runtimeappplugin4ca21e2a_04e622bc(app.context, inject)
+  if (typeof nuxt_plugin_runtimeappplugin76f8afd6_ff959028 === 'function') {
+    await nuxt_plugin_runtimeappplugin76f8afd6_ff959028(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_capiplugin_5760894b === 'function') {
-    await nuxt_plugin_capiplugin_5760894b(app.context, inject)
+  if (typeof nuxt_plugin_capiplugin_3f4c7f36 === 'function') {
+    await nuxt_plugin_capiplugin_3f4c7f36(app.context, inject)
   }
 
-  if (process.server && typeof nuxt_plugin_nitrobridgeserver_56962872 === 'function') {
-    await nuxt_plugin_nitrobridgeserver_56962872(app.context, inject)
+  if (process.server && typeof nuxt_plugin_nitrobridgeserver_86e1f946 === 'function') {
+    await nuxt_plugin_nitrobridgeserver_86e1f946(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_nitroclient_7a1bb99c === 'function') {
-    await nuxt_plugin_nitroclient_7a1bb99c(app.context, inject)
+  if (process.client && typeof nuxt_plugin_nitroclient_4ef62ab2 === 'function') {
+    await nuxt_plugin_nitroclient_4ef62ab2(app.context, inject)
   }
 
   // Lock enablePreview in context

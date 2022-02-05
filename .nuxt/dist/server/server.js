@@ -545,7 +545,7 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
   false,
   injectStyles,
   null,
-  "1e677623"
+  "2105b2e2"
   
 )
 
@@ -660,7 +660,7 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
   false,
   injectStyles,
   null,
-  "ce8d12d2"
+  "7b24bc03"
   
 )
 
@@ -877,12 +877,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_nuxt_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/nuxt.js */ "./.nuxt/components/nuxt.js");
 /* harmony import */ var _App_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./App.js */ "./.nuxt/App.js");
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./utils */ "./.nuxt/utils.js");
-/* harmony import */ var nuxt_plugin_plugin_9b003d9c__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! nuxt_plugin_plugin_9b003d9c */ "./.nuxt/components/plugin.js");
-/* harmony import */ var nuxt_plugin_runtimeappplugin4ca21e2a_04e622bc__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! nuxt_plugin_runtimeappplugin4ca21e2a_04e622bc */ "./.nuxt/runtime.app.plugin.4ca21e2a.mjs");
-/* harmony import */ var nuxt_plugin_capiplugin_5760894b__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! nuxt_plugin_capiplugin_5760894b */ "./.nuxt/capi.plugin.mjs");
-/* harmony import */ var nuxt_plugin_nitrobridgeserver_56962872__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! nuxt_plugin_nitrobridgeserver_56962872 */ "./.nuxt/nitro-bridge.server.mjs");
-/* harmony import */ var nuxt_plugin_nitroclient_7a1bb99c__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! nuxt_plugin_nitroclient_7a1bb99c */ "./.nuxt/empty.js");
-/* harmony import */ var nuxt_plugin_nitroclient_7a1bb99c__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(nuxt_plugin_nitroclient_7a1bb99c__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var nuxt_plugin_plugin_ac7033b2__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! nuxt_plugin_plugin_ac7033b2 */ "./.nuxt/components/plugin.js");
+/* harmony import */ var nuxt_plugin_runtimeappplugin76f8afd6_ff959028__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! nuxt_plugin_runtimeappplugin76f8afd6_ff959028 */ "./.nuxt/runtime.app.plugin.76f8afd6.mjs");
+/* harmony import */ var nuxt_plugin_capiplugin_3f4c7f36__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! nuxt_plugin_capiplugin_3f4c7f36 */ "./.nuxt/capi.plugin.mjs");
+/* harmony import */ var nuxt_plugin_nitrobridgeserver_86e1f946__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! nuxt_plugin_nitrobridgeserver_86e1f946 */ "./.nuxt/nitro-bridge.server.mjs");
+/* harmony import */ var nuxt_plugin_nitroclient_4ef62ab2__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! nuxt_plugin_nitroclient_4ef62ab2 */ "./.nuxt/empty.js");
+/* harmony import */ var nuxt_plugin_nitroclient_4ef62ab2__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(nuxt_plugin_nitroclient_4ef62ab2__WEBPACK_IMPORTED_MODULE_15__);
 
 
 
@@ -897,7 +897,7 @@ __webpack_require__.r(__webpack_exports__);
 
  // Source: ./components/plugin.js (mode: 'all')
 
- // Source: ./runtime.app.plugin.4ca21e2a.mjs (mode: 'all')
+ // Source: ./runtime.app.plugin.76f8afd6.mjs (mode: 'all')
 
  // Source: ./capi.plugin.mjs (mode: 'all')
 
@@ -1105,20 +1105,20 @@ async function createApp(ssrContext, config = {}) {
   if (false) {} // Plugin execution
 
 
-  if (typeof nuxt_plugin_plugin_9b003d9c__WEBPACK_IMPORTED_MODULE_11__["default"] === 'function') {
-    await Object(nuxt_plugin_plugin_9b003d9c__WEBPACK_IMPORTED_MODULE_11__["default"])(app.context, inject);
+  if (typeof nuxt_plugin_plugin_ac7033b2__WEBPACK_IMPORTED_MODULE_11__["default"] === 'function') {
+    await Object(nuxt_plugin_plugin_ac7033b2__WEBPACK_IMPORTED_MODULE_11__["default"])(app.context, inject);
   }
 
-  if (typeof nuxt_plugin_runtimeappplugin4ca21e2a_04e622bc__WEBPACK_IMPORTED_MODULE_12__["default"] === 'function') {
-    await Object(nuxt_plugin_runtimeappplugin4ca21e2a_04e622bc__WEBPACK_IMPORTED_MODULE_12__["default"])(app.context, inject);
+  if (typeof nuxt_plugin_runtimeappplugin76f8afd6_ff959028__WEBPACK_IMPORTED_MODULE_12__["default"] === 'function') {
+    await Object(nuxt_plugin_runtimeappplugin76f8afd6_ff959028__WEBPACK_IMPORTED_MODULE_12__["default"])(app.context, inject);
   }
 
-  if (typeof nuxt_plugin_capiplugin_5760894b__WEBPACK_IMPORTED_MODULE_13__["default"] === 'function') {
-    await Object(nuxt_plugin_capiplugin_5760894b__WEBPACK_IMPORTED_MODULE_13__["default"])(app.context, inject);
+  if (typeof nuxt_plugin_capiplugin_3f4c7f36__WEBPACK_IMPORTED_MODULE_13__["default"] === 'function') {
+    await Object(nuxt_plugin_capiplugin_3f4c7f36__WEBPACK_IMPORTED_MODULE_13__["default"])(app.context, inject);
   }
 
-  if ( true && typeof nuxt_plugin_nitrobridgeserver_56962872__WEBPACK_IMPORTED_MODULE_14__["default"] === 'function') {
-    await Object(nuxt_plugin_nitrobridgeserver_56962872__WEBPACK_IMPORTED_MODULE_14__["default"])(app.context, inject);
+  if ( true && typeof nuxt_plugin_nitrobridgeserver_86e1f946__WEBPACK_IMPORTED_MODULE_14__["default"] === 'function') {
+    await Object(nuxt_plugin_nitrobridgeserver_86e1f946__WEBPACK_IMPORTED_MODULE_14__["default"])(app.context, inject);
   }
 
   if (false) {} // Lock enablePreview in context
@@ -1185,7 +1185,7 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
   false,
   null,
   null,
-  "392e1c87"
+  "36bb8df3"
   
 )
 
@@ -1409,7 +1409,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const _84ba9cd4 = () => Object(_utils__WEBPACK_IMPORTED_MODULE_3__["interopDefault"])(__webpack_require__.e(/*! import() | pages/index */ "pages/index").then(__webpack_require__.bind(null, /*! ../pages/index.vue */ "./pages/index.vue")));
+const _a8e7987e = () => Object(_utils__WEBPACK_IMPORTED_MODULE_3__["interopDefault"])(__webpack_require__.e(/*! import() | pages/index */ "pages/index").then(__webpack_require__.bind(null, /*! ../pages/index.vue */ "./pages/index.vue")));
 
 const emptyFn = () => {};
 
@@ -1422,7 +1422,7 @@ const routerOptions = {
   scrollBehavior: _router_scrollBehavior_js__WEBPACK_IMPORTED_MODULE_4__["default"],
   routes: [{
     path: "/",
-    component: _84ba9cd4,
+    component: _a8e7987e,
     name: "index"
   }],
   fallback: false
@@ -1549,9 +1549,9 @@ function shouldScrollToTop(route) {
 
 /***/ }),
 
-/***/ "./.nuxt/runtime.app.plugin.4ca21e2a.mjs":
+/***/ "./.nuxt/runtime.app.plugin.76f8afd6.mjs":
 /*!***********************************************!*\
-  !*** ./.nuxt/runtime.app.plugin.4ca21e2a.mjs ***!
+  !*** ./.nuxt/runtime.app.plugin.76f8afd6.mjs ***!
   \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -20916,8 +20916,8 @@ if (inBrowser) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/grimos10/gits/metadrivers.shop/node_modules/@nuxt/bridge/dist/runtime/capi.plugin.mjs */"./node_modules/@nuxt/bridge/dist/runtime/capi.plugin.mjs");
-module.exports = __webpack_require__(/*! /home/grimos10/gits/metadrivers.shop/.nuxt/server.js */"./.nuxt/server.js");
+__webpack_require__(/*! /home/macca/customers/metadrivers.shop/node_modules/@nuxt/bridge/dist/runtime/capi.plugin.mjs */"./node_modules/@nuxt/bridge/dist/runtime/capi.plugin.mjs");
+module.exports = __webpack_require__(/*! /home/macca/customers/metadrivers.shop/.nuxt/server.js */"./.nuxt/server.js");
 
 
 /***/ }),

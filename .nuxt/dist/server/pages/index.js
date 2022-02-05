@@ -1,6 +1,235 @@
 exports.ids = ["pages/index"];
 exports.modules = {
 
+/***/ "./assets/img sync recursive ^\\.\\/.*$":
+/*!**********************************!*\
+  !*** ./assets/img sync ^\.\/.*$ ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./alonso.png": "./assets/img/alonso.png",
+	"./bottas.png": "./assets/img/bottas.png",
+	"./gasly.png": "./assets/img/gasly.png",
+	"./giovinazzi.png": "./assets/img/giovinazzi.png",
+	"./hamilton.png": "./assets/img/hamilton.png",
+	"./latifi.png": "./assets/img/latifi.png",
+	"./leclerc.png": "./assets/img/leclerc.png",
+	"./mazepin.png": "./assets/img/mazepin.png",
+	"./norris.png": "./assets/img/norris.png",
+	"./ocon.png": "./assets/img/ocon.png",
+	"./perez.png": "./assets/img/perez.png",
+	"./raikkonen.png": "./assets/img/raikkonen.png",
+	"./ricciardo.png": "./assets/img/ricciardo.png",
+	"./russell.png": "./assets/img/russell.png",
+	"./sainz.png": "./assets/img/sainz.png",
+	"./schumacher-jr.png": "./assets/img/schumacher-jr.png",
+	"./schumacher.png": "./assets/img/schumacher.png",
+	"./stroll.png": "./assets/img/stroll.png",
+	"./tsunoda.png": "./assets/img/tsunoda.png",
+	"./verstappen.jpg": "./assets/img/verstappen.jpg",
+	"./vettel.png": "./assets/img/vettel.png"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./assets/img sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
+/***/ "./assets/img/alonso.png":
+/*!*******************************!*\
+  !*** ./assets/img/alonso.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/alonso.png";
+
+/***/ }),
+
+/***/ "./assets/img/bottas.png":
+/*!*******************************!*\
+  !*** ./assets/img/bottas.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/bottas.png";
+
+/***/ }),
+
+/***/ "./assets/img/gasly.png":
+/*!******************************!*\
+  !*** ./assets/img/gasly.png ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/gasly.png";
+
+/***/ }),
+
+/***/ "./assets/img/giovinazzi.png":
+/*!***********************************!*\
+  !*** ./assets/img/giovinazzi.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/giovinazzi.png";
+
+/***/ }),
+
+/***/ "./assets/img/hamilton.png":
+/*!*********************************!*\
+  !*** ./assets/img/hamilton.png ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/hamilton.png";
+
+/***/ }),
+
+/***/ "./assets/img/latifi.png":
+/*!*******************************!*\
+  !*** ./assets/img/latifi.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/latifi.png";
+
+/***/ }),
+
+/***/ "./assets/img/leclerc.png":
+/*!********************************!*\
+  !*** ./assets/img/leclerc.png ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/leclerc.png";
+
+/***/ }),
+
+/***/ "./assets/img/mazepin.png":
+/*!********************************!*\
+  !*** ./assets/img/mazepin.png ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/mazepin.png";
+
+/***/ }),
+
+/***/ "./assets/img/norris.png":
+/*!*******************************!*\
+  !*** ./assets/img/norris.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/norris.png";
+
+/***/ }),
+
+/***/ "./assets/img/ocon.png":
+/*!*****************************!*\
+  !*** ./assets/img/ocon.png ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/ocon.png";
+
+/***/ }),
+
+/***/ "./assets/img/perez.png":
+/*!******************************!*\
+  !*** ./assets/img/perez.png ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/perez.png";
+
+/***/ }),
+
+/***/ "./assets/img/raikkonen.png":
+/*!**********************************!*\
+  !*** ./assets/img/raikkonen.png ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/raikkonen.png";
+
+/***/ }),
+
+/***/ "./assets/img/ricciardo.png":
+/*!**********************************!*\
+  !*** ./assets/img/ricciardo.png ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/ricciardo.png";
+
+/***/ }),
+
+/***/ "./assets/img/russell.png":
+/*!********************************!*\
+  !*** ./assets/img/russell.png ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/russell.png";
+
+/***/ }),
+
+/***/ "./assets/img/sainz.png":
+/*!******************************!*\
+  !*** ./assets/img/sainz.png ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/sainz.png";
+
+/***/ }),
+
+/***/ "./assets/img/schumacher-jr.png":
+/*!**************************************!*\
+  !*** ./assets/img/schumacher-jr.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/schumacher-jr.png";
+
+/***/ }),
+
 /***/ "./assets/img/schumacher.png":
 /*!***********************************!*\
   !*** ./assets/img/schumacher.png ***!
@@ -9,6 +238,28 @@ exports.modules = {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "assets/img/schumacher.png";
+
+/***/ }),
+
+/***/ "./assets/img/stroll.png":
+/*!*******************************!*\
+  !*** ./assets/img/stroll.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/stroll.png";
+
+/***/ }),
+
+/***/ "./assets/img/tsunoda.png":
+/*!********************************!*\
+  !*** ./assets/img/tsunoda.png ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/tsunoda.png";
 
 /***/ }),
 
@@ -58,7 +309,7 @@ var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/@nuxt/
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
 ___CSS_LOADER_EXPORT___.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Source+Sans+Pro:wght@300;400&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "body {\n  margin: 0;\n}\nh1, h2, h3, h4, h5, h6 {\n  font-family: \"Outfit\", sans-serif;\n}\np, span {\n  font-family: \"Source Sans Pro\", sans-serif;\n}\n.color-black {\n  color: #3d3d3d;\n}\n.font-size-2em {\n  font-size: 2em;\n}\n.font-size-3-5em {\n  font-size: 3.5em;\n}\n.font-size-5-5em {\n  font-size: 5.5em;\n}\n.font-size-1em {\n  font-size: 1em;\n}\n.font-size-1-5em {\n  font-size: 1.5em;\n}\n.font-weight-lighter {\n  font-weight: lighter;\n}\n.font-weight-bolder {\n  font-weight: bolder;\n}\n.line-height-1-5em {\n  line-height: 1.5em;\n}\n.half {\n  width: 50%;\n}\n.one-third {\n  width: 33%;\n}\n.text-justify {\n  text-align: justify;\n}\n.text-center {\n  text-align: center;\n}\n.text-center.align-center {\n  align-items: center;\n}\n.img-vw-20 {\n  width: 20vw;\n  height: 20vw;\n}\n.nomargin {\n  margin: 0;\n}\n.margin.top.px20 {\n  margin-top: 20px;\n}\n.margin.top.px10 {\n  margin-top: 10px;\n}\n.margin.bottom.px20 {\n  margin-bottom: 20px;\n}\n.margin.bottom.px10 {\n  margin-bottom: 10px;\n}\n.margin.left.px20 {\n  margin-left: 20px;\n}\n.margin.left.px10 {\n  margin-left: 10px;\n}\n.margin.right.px20 {\n  margin-right: 20px;\n}\n.margin.right.px10 {\n  margin-right: 10px;\n}\n.border-radius-px10 {\n  border-radius: 10px;\n}\n.flexbox {\n  display: flex;\n}\n.flexbox.justify-center {\n  justify-content: center;\n}\n.flexbox.justify-end {\n  justify-content: flex-end;\n}\n.flexbox.align-center {\n  align-items: center;\n}\nsection {\n  margin: 0 auto;\n}\nsection.w-75 {\n  width: 75%;\n}\nsection.sec-100vh {\n  height: 100vh;\n}\nbutton.simple {\n  border-radius: 5px;\n  border: none;\n  padding: 20px;\n  background: #3742fa;\n  color: #fefefe;\n  transition-duration: 0.3s;\n}\nbutton.simple:hover {\n  background: #fa3741;\n}\nbutton.w-300px {\n  width: 200px;\n}", "",{"version":3,"sources":["webpack://./pages/index.vue"],"names":[],"mappings":"AA8EA;EACE,SAAA;AA5EF;AA8EA;EACE,iCAAA;AA3EF;AA6EA;EAAS,0CAAA;AAzET;AA2EA;EACE,cAdM;AA1DR;AA0EA;EACE,cAAA;AAvEF;AAyEA;EACE,gBAAA;AAtEF;AAwEA;EACE,gBAAA;AArEF;AAuEA;EACE,cAAA;AApEF;AAsEA;EACE,gBAAA;AAnEF;AAqEA;EACE,oBAAA;AAlEF;AAoEA;EACE,mBAAA;AAjEF;AAmEA;EACE,kBAAA;AAhEF;AAkEA;EACE,UAAA;AA/DF;AAiEA;EACE,UAAA;AA9DF;AAgEA;EACE,mBAAA;AA7DF;AA+DA;EACE,kBAAA;AA5DF;AA6DE;EACE,mBAAA;AA3DJ;AA+DA;EACE,WAAA;EACA,YAAA;AA5DF;AA+DA;EACE,SAAA;AA5DF;AAgEI;EACE,gBAAA;AA7DN;AA+DI;EACE,gBAAA;AA7DN;AAiEI;EACE,mBAAA;AA/DN;AAiEI;EACE,mBAAA;AA/DN;AAoEI;EACE,iBAAA;AAlEN;AAoEI;EACE,iBAAA;AAlEN;AAuEI;EACE,kBAAA;AArEN;AAuEI;EACE,kBAAA;AArEN;AA0EA;EACE,mBAAA;AAvEF;AA0EA;EACE,aAAA;AAvEF;AAwEE;EACE,uBAAA;AAtEJ;AAwEE;EACE,yBAAA;AAtEJ;AAwEE;EACE,mBAAA;AAtEJ;AA0EA;EACE,cAAA;AAvEF;AAwEE;EACE,UAAA;AAtEJ;AAwEE;EACE,aAAA;AAtEJ;AA2EE;EACE,kBAAA;EACA,YAAA;EACA,aAAA;EACA,mBApIG;EAqIH,cApII;EAqIJ,yBAAA;AAxEJ;AAyEI;EACE,mBAtIQ;AA+Dd;AA0EE;EACE,YAAA;AAxEJ","sourcesContent":["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Source+Sans+Pro:wght@300;400&display=swap');\n\n$black: #3d3d3d;\n$blue: #3742fa;\n$white: #fefefe;\n$hover-color: #fa3741;\n\nbody{\n  margin: 0;\n}\nh1,h2,h3,h4,h5,h6{ \n  font-family: 'Outfit', sans-serif; \n}\np, span{ font-family: 'Source Sans Pro', sans-serif; }\n\n.color-black{\n  color: $black;\n}\n.font-size-2em{\n  font-size: 2em;\n}\n.font-size-3-5em{\n  font-size: 3.5em;\n}\n.font-size-5-5em{\n  font-size: 5.5em;\n}\n.font-size-1em{\n  font-size: 1em;\n}\n.font-size-1-5em{\n  font-size: 1.5em;\n}\n.font-weight-lighter{\n  font-weight: lighter;\n}\n.font-weight-bolder{\n  font-weight: bolder;\n}\n.line-height-1-5em{\n  line-height: 1.5em;\n}\n.half{\n  width: 50%;\n}\n.one-third{\n  width: 33%;\n}\n.text-justify{\n  text-align: justify;\n}\n.text-center{\n  text-align: center;\n  &.align-center{\n    align-items: center;\n  }\n}\n\n.img-vw-20{\n  width: 20vw;\n  height: 20vw;\n}\n\n.nomargin{\n  margin: 0;\n}\n.margin{\n  &.top{\n    &.px20{\n      margin-top: 20px;\n    }\n    &.px10{\n      margin-top: 10px;\n    }\n  }\n  &.bottom{\n    &.px20{\n      margin-bottom: 20px;\n    }\n    &.px10{\n      margin-bottom: 10px;\n    }\n  }\n\n  &.left{\n    &.px20{\n      margin-left: 20px;\n    }\n    &.px10{\n      margin-left: 10px;\n    }\n  }\n\n  &.right{\n    &.px20{\n      margin-right: 20px;\n    }\n    &.px10{\n      margin-right: 10px;\n    }\n  }\n}\n\n.border-radius-px10{\n  border-radius: 10px;\n}\n\n.flexbox{\n  display: flex;\n  &.justify-center{\n    justify-content: center;\n  }\n  &.justify-end{\n    justify-content: flex-end;\n  }\n  &.align-center{\n    align-items: center;\n  }\n}\n\nsection{\n  margin: 0 auto;\n  &.w-75{\n    width: 75%;\n  }\n  &.sec-100vh{\n    height: 100vh;\n  }\n}\n\nbutton{\n  &.simple{\n    border-radius: 5px;\n    border: none;\n    padding: 20px;\n    background: $blue;\n    color: $white;\n    transition-duration: 0.3s;\n    &:hover{\n      background: $hover-color;\n    }\n  }\n  &.w-300px{\n    width: 200px;\n  }\n}\n\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "body {\n  margin: 0;\n}\nh1, h2, h3, h4, h5, h6 {\n  font-family: \"Outfit\", sans-serif;\n}\np, span {\n  font-family: \"Source Sans Pro\", sans-serif;\n}\n.color-black {\n  color: #3d3d3d;\n}\n.font-size-2em {\n  font-size: 2em;\n}\n.font-size-3-5em {\n  font-size: 3.5em;\n}\n.font-size-5-5em {\n  font-size: 5.5em;\n}\n.font-size-1em {\n  font-size: 1em;\n}\n.font-size-1-5em {\n  font-size: 1.5em;\n}\n.font-weight-lighter {\n  font-weight: lighter;\n}\n.font-weight-bolder {\n  font-weight: bolder;\n}\n.line-height-1-5em {\n  line-height: 1.5em;\n}\n.half {\n  width: 50%;\n}\n.one-third {\n  width: 33%;\n}\n.text-justify {\n  text-align: justify;\n}\n.text-center {\n  text-align: center;\n}\n.text-center.align-center {\n  align-items: center;\n}\n.img-vw-20 {\n  width: 20vw;\n  height: 20vw;\n}\n.nomargin {\n  margin: 0;\n}\n.margin.top.px20 {\n  margin-top: 20px;\n}\n.margin.top.px10 {\n  margin-top: 10px;\n}\n.margin.bottom.px20 {\n  margin-bottom: 20px;\n}\n.margin.bottom.px10 {\n  margin-bottom: 10px;\n}\n.margin.left.px20 {\n  margin-left: 20px;\n}\n.margin.left.px10 {\n  margin-left: 10px;\n}\n.margin.right.px20 {\n  margin-right: 20px;\n}\n.margin.right.px10 {\n  margin-right: 10px;\n}\n.border-radius-px10 {\n  border-radius: 10px;\n}\n.flexbox {\n  display: flex;\n}\n.flexbox.justify-center {\n  justify-content: center;\n}\n.flexbox.justify-end {\n  justify-content: flex-end;\n}\n.flexbox.align-center {\n  align-items: center;\n}\nsection {\n  margin: 0 auto;\n}\nsection.w-75 {\n  width: 75%;\n}\nsection.sec-100vh {\n  height: 100vh;\n}\nbutton.simple {\n  border-radius: 5px;\n  border: none;\n  padding: 20px;\n  background: #3742fa;\n  color: #fefefe;\n  transition-duration: 0.3s;\n}\nbutton.simple:hover {\n  background: #fa3741;\n}\nbutton.w-300px {\n  width: 200px;\n}", "",{"version":3,"sources":["webpack://./pages/index.vue"],"names":[],"mappings":"AAqGA;EACE,SAAA;AAnGF;AAqGA;EACE,iCAAA;AAlGF;AAoGA;EAAS,0CAAA;AAhGT;AAkGA;EACE,cAdM;AAjFR;AAiGA;EACE,cAAA;AA9FF;AAgGA;EACE,gBAAA;AA7FF;AA+FA;EACE,gBAAA;AA5FF;AA8FA;EACE,cAAA;AA3FF;AA6FA;EACE,gBAAA;AA1FF;AA4FA;EACE,oBAAA;AAzFF;AA2FA;EACE,mBAAA;AAxFF;AA0FA;EACE,kBAAA;AAvFF;AAyFA;EACE,UAAA;AAtFF;AAwFA;EACE,UAAA;AArFF;AAuFA;EACE,mBAAA;AApFF;AAsFA;EACE,kBAAA;AAnFF;AAoFE;EACE,mBAAA;AAlFJ;AAsFA;EACE,WAAA;EACA,YAAA;AAnFF;AAsFA;EACE,SAAA;AAnFF;AAuFI;EACE,gBAAA;AApFN;AAsFI;EACE,gBAAA;AApFN;AAwFI;EACE,mBAAA;AAtFN;AAwFI;EACE,mBAAA;AAtFN;AA2FI;EACE,iBAAA;AAzFN;AA2FI;EACE,iBAAA;AAzFN;AA8FI;EACE,kBAAA;AA5FN;AA8FI;EACE,kBAAA;AA5FN;AAiGA;EACE,mBAAA;AA9FF;AAiGA;EACE,aAAA;AA9FF;AA+FE;EACE,uBAAA;AA7FJ;AA+FE;EACE,yBAAA;AA7FJ;AA+FE;EACE,mBAAA;AA7FJ;AAiGA;EACE,cAAA;AA9FF;AA+FE;EACE,UAAA;AA7FJ;AA+FE;EACE,aAAA;AA7FJ;AAkGE;EACE,kBAAA;EACA,YAAA;EACA,aAAA;EACA,mBApIG;EAqIH,cApII;EAqIJ,yBAAA;AA/FJ;AAgGI;EACE,mBAtIQ;AAwCd;AAiGE;EACE,YAAA;AA/FJ","sourcesContent":["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Source+Sans+Pro:wght@300;400&display=swap');\n\n$black: #3d3d3d;\n$blue: #3742fa;\n$white: #fefefe;\n$hover-color: #fa3741;\n\nbody{\n  margin: 0;\n}\nh1,h2,h3,h4,h5,h6{ \n  font-family: 'Outfit', sans-serif; \n}\np, span{ font-family: 'Source Sans Pro', sans-serif; }\n\n.color-black{\n  color: $black;\n}\n.font-size-2em{\n  font-size: 2em;\n}\n.font-size-3-5em{\n  font-size: 3.5em;\n}\n.font-size-5-5em{\n  font-size: 5.5em;\n}\n.font-size-1em{\n  font-size: 1em;\n}\n.font-size-1-5em{\n  font-size: 1.5em;\n}\n.font-weight-lighter{\n  font-weight: lighter;\n}\n.font-weight-bolder{\n  font-weight: bolder;\n}\n.line-height-1-5em{\n  line-height: 1.5em;\n}\n.half{\n  width: 50%;\n}\n.one-third{\n  width: 33%;\n}\n.text-justify{\n  text-align: justify;\n}\n.text-center{\n  text-align: center;\n  &.align-center{\n    align-items: center;\n  }\n}\n\n.img-vw-20{\n  width: 20vw;\n  height: 20vw;\n}\n\n.nomargin{\n  margin: 0;\n}\n.margin{\n  &.top{\n    &.px20{\n      margin-top: 20px;\n    }\n    &.px10{\n      margin-top: 10px;\n    }\n  }\n  &.bottom{\n    &.px20{\n      margin-bottom: 20px;\n    }\n    &.px10{\n      margin-bottom: 10px;\n    }\n  }\n\n  &.left{\n    &.px20{\n      margin-left: 20px;\n    }\n    &.px10{\n      margin-left: 10px;\n    }\n  }\n\n  &.right{\n    &.px20{\n      margin-right: 20px;\n    }\n    &.px10{\n      margin-right: 10px;\n    }\n  }\n}\n\n.border-radius-px10{\n  border-radius: 10px;\n}\n\n.flexbox{\n  display: flex;\n  &.justify-center{\n    justify-content: center;\n  }\n  &.justify-end{\n    justify-content: flex-end;\n  }\n  &.align-center{\n    align-items: center;\n  }\n}\n\nsection{\n  margin: 0 auto;\n  &.w-75{\n    width: 75%;\n  }\n  &.sec-100vh{\n    height: 100vh;\n  }\n}\n\nbutton{\n  &.simple{\n    border-radius: 5px;\n    border: none;\n    padding: 20px;\n    background: $blue;\n    color: $white;\n    transition-duration: 0.3s;\n    &:hover{\n      background: $hover-color;\n    }\n  }\n  &.w-300px{\n    width: 200px;\n  }\n}\n\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {};
 module.exports = ___CSS_LOADER_EXPORT___;
@@ -79,12 +330,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(_vue_composition_api__WEBPACK_IMPORTED_MODULE_0__["defineComponent"])({
   setup() {
-    const nfts = ["schumacher.png", "verstappen.jpg", "vettel.png", "alonso.png", "bottas.png", "gasly.png", "giovinazzi.png", "hamilton.png", "latifi.png", "leclerc.png", "mazepin.png", "norris.png", "ocon.png", "perez.png", "raikkonen.png", "ricciardo.png", "russell.png", "sainz.png", "schumacher-jr.png", "stroll.png", "tsunoda.png"];
-    let img = `@/assets/img/${nfts[0]}`;
+    const nfts = ["schumacher.png", "verstappen.jpg", "vettel.png", "alonso.png", "bottas.png", "gasly.png", "giovinazzi.png", "hamilton.png", "latifi.png", "leclerc.png", "mazepin.png", "norris.png", "ocon.png", "perez.png", "raikkonen.png", "ricciardo.png", "russell.png", "sainz.png", "schumacher-jr.png", "stroll.png", "tsunoda.png"].map(n => __webpack_require__("./assets/img sync recursive ^\\.\\/.*$")(`./${n}`));
+    const img = Object(_vue_composition_api__WEBPACK_IMPORTED_MODULE_0__["ref"])(nfts[0]);
     let i = 0;
     setInterval(() => {
-      img = `@/assets/img/${nfts[i++]}`;
-    }, 2000);
+      img.value = nfts[i++ % nfts.length];
+    }, 500);
     return {
       img
     };
@@ -185,7 +436,7 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
   false,
   injectStyles,
   null,
-  "9a4962be"
+  "6636f3f8"
   
 )
 

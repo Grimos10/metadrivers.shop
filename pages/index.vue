@@ -40,26 +40,47 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api'
+import { defineComponent, ref } from '@vue/composition-api'
 
 export default defineComponent({
   setup() {
 
-    const nfts = ["schumacher.png", "verstappen.jpg", "vettel.png", "alonso.png", "bottas.png", "gasly.png", "giovinazzi.png", "hamilton.png", "latifi.png", "leclerc.png", "mazepin.png", "norris.png", "ocon.png", "perez.png", "raikkonen.png", "ricciardo.png", "russell.png", "sainz.png", "schumacher-jr.png", "stroll.png", "tsunoda.png"];
+    const nfts = 
+      [ 
+        "schumacher.png", 
+        "verstappen.jpg", 
+        "vettel.png", 
+        "alonso.png",
+        "bottas.png", 
+        "gasly.png", 
+        "giovinazzi.png", 
+        "hamilton.png", 
+        "latifi.png", 
+        "leclerc.png", 
+        "mazepin.png", 
+        "norris.png", 
+        "ocon.png", 
+        "perez.png", 
+        "raikkonen.png", 
+        "ricciardo.png", 
+        "russell.png", 
+        "sainz.png", 
+        "schumacher-jr.png", 
+        "stroll.png", 
+        "tsunoda.png"
+      ].map(n => require(`@/assets/img/${n}`));
     
-    let img = `@/assets/img/${nfts[0]}`;
+    const img = ref(nfts[0]);
     let i = 0;
 
     setInterval(() => {
       
-      img = `@/assets/img/${nfts[i++]}`
+      img.value = nfts[i++ % nfts.length];
 
-    }, 2000)
+    }, 500)
 
     return{
-
       img
-
     }
 
     

@@ -14,7 +14,7 @@ import { createRenderer } from 'vue-bundle-renderer';
 import devalue from '@nuxt/devalue';
 import defu from 'defu';
 import { joinURL } from 'ufo';
-import htmlTemplate from '/home/grimos10/gits/metadrivers.shop/.nuxt/views/document.template.mjs';
+import htmlTemplate from '/home/macca/customers/metadrivers.shop/.nuxt/views/document.template.mjs';
 import { createRenderer as createRenderer$1 } from 'vue-server-renderer/build.dev.js';
 
 const _runtimeConfig = (function(a,b,c){return {public:{_app:{basePath:a,assetsPath:b,cdnURL:c,buildAssetsDir:b,baseURL:a},app:{basePath:a,assetsPath:b,cdnURL:c,buildAssetsDir:b,baseURL:a}},private:{}}}("\u002F","\u002F_nuxt\u002F",null));
@@ -147,10 +147,10 @@ server.listen(listenAddress, () => {
   });
 });
 
-const STATIC_ASSETS_BASE = "/_nuxt/static" + "/" + "1643996279";
+const STATIC_ASSETS_BASE = "/_nuxt/static" + "/" + "1644062637";
 const PAYLOAD_JS = "/payload.js";
-const getClientManifest = cachedImport(() => import('/home/grimos10/gits/metadrivers.shop/.nuxt/dist/server/client.manifest.mjs'));
-const getSSRApp = cachedImport(() => import('/home/grimos10/gits/metadrivers.shop/.nuxt/dist/server/server.mjs'));
+const getClientManifest = cachedImport(() => import('/home/macca/customers/metadrivers.shop/.nuxt/dist/server/client.manifest.mjs'));
+const getSSRApp = cachedImport(() => import('/home/macca/customers/metadrivers.shop/.nuxt/dist/server/server.mjs'));
 const getSSRRenderer = cachedResult(async () => {
   const clientManifest = await getClientManifest();
   if (!clientManifest) {
