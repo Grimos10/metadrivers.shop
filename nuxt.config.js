@@ -4,6 +4,10 @@ export default defineNuxtConfig({
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  router: {
+    base: '/metadrivers.shop/'
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'metadrivers',
