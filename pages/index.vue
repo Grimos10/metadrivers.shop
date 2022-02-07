@@ -1,7 +1,7 @@
 <template>
   <div>
     <header id="navbar" class="w-85 position-fixed flexbox justify-between align-center">
-      <span class="source-sans font-size-1-25em"> <b> metadrivers </b> </span>
+      <span class="source-sans font-size-1-25em"> <b> MetaDrivers </b> </span>
       <div> 
         <a href="https://www.instagram.com/metadrivers.ig/"><font-awesome-icon class="fa-2x margin right px10" :icon="['fab', 'instagram']"/></a>
         <a href="https://twitter.com/DriversMeta"><font-awesome-icon class="fa-2x" :icon="['fab', 'twitter']"/></a>

@@ -2,11 +2,7 @@ import { defineNuxtConfig } from '@nuxt/bridge'
 
 export default defineNuxtConfig({
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
-
-  router: {
-    base: '/metadrivers.shop/'
-  },
+  target: 'server',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
