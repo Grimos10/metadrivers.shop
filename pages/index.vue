@@ -31,19 +31,19 @@
         <p class="margin top px20 font-size-2em text-justify text-center font-weight-bolder resp-1-5em resp-no-margin">
           Base
         </p>
-        <img src="@/assets/img/vettel.png" class="border-radius-px10 img-vw-20 min-width-120px"/>
+        <img src="@/assets/img/vettel.png" class="border-radius-px10 img-vw-20 min-width-120px resp-img-vw-60"/>
       </div>
       <div class="one-third text-center margin bottom px20 resp-align-center resp-w-100">
         <p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder resp-1-5em resp-no-margin">
           World Champion
         </p>
-        <img src="@/assets/img/verstappen.jpg" class="border-radius-px10 img-vw-20 min-width-120px"/>
+        <img src="@/assets/img/verstappen.jpg" class="border-radius-px10 img-vw-20 min-width-120px resp-img-vw-60"/>
       </div>
       <div class="one-third text-center margin bottom px20 resp-align-center resp-w-100">
         <p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder resp-1-5em resp-no-margin">
           Historical
         </p>
-        <img src="@/assets/img/schumacher.png" class="border-radius-px10 img-vw-20 min-width-120px"/>
+        <img src="@/assets/img/schumacher.png" class="border-radius-px10 img-vw-20 min-width-120px resp-img-vw-60"/>
       </div>
     </section>
   </div>
@@ -312,6 +312,9 @@ export default defineComponent({
         &.resp-align-center{
           align-items: center;
         }
+    }
+    .resp-img-vw-60{
+      width: 60vw;
     }
     .resp-no-min-width{
       min-width: 0;
