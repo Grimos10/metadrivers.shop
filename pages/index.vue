@@ -26,24 +26,24 @@
         <img v-bind:src="img" class="border-radius-px10 img-vw-30 min-width-300px resp-w-70"/>
       </div>
     </section>
-    <section class="flexbox w-85">
-      <div class="one-third text-center margin bottom px20">
-        <p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder">
+    <section class="flexbox w-85 resp-display-block resp-w-100 resp-margin top px30">
+      <div class="one-third text-center margin bottom px20 resp-w-100">
+        <p class="margin top px20 font-size-2em text-justify text-center font-weight-bolder resp-1-5em resp-no-margin">
           Base
         </p>
-        <img src="@/assets/img/vettel.png" class="border-radius-px10 img-vw-20"/>
+        <img src="@/assets/img/vettel.png" class="border-radius-px10 img-vw-20 min-width-120px"/>
       </div>
-      <div class="one-third text-center margin bottom px20">
-        <p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder">
+      <div class="one-third text-center margin bottom px20 resp-align-center resp-w-100">
+        <p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder resp-1-5em resp-no-margin">
           World Champion
         </p>
-        <img src="@/assets/img/verstappen.jpg" class="border-radius-px10 img-vw-20"/>
+        <img src="@/assets/img/verstappen.jpg" class="border-radius-px10 img-vw-20 min-width-120px"/>
       </div>
-      <div class="one-third text-center margin bottom px20">
-        <p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder">
+      <div class="one-third text-center margin bottom px20 resp-align-center resp-w-100">
+        <p class="margin top px20 font-size-2em line-height-1-5em text-justify text-center font-weight-bolder resp-1-5em resp-no-margin">
           Historical
         </p>
-        <img src="@/assets/img/schumacher.png" class="border-radius-px10 img-vw-20"/>
+        <img src="@/assets/img/schumacher.png" class="border-radius-px10 img-vw-20 min-width-120px"/>
       </div>
     </section>
   </div>
@@ -195,6 +195,9 @@ export default defineComponent({
   .min-width-300px{
     min-width: 300px;
   }
+  .min-width-120px{
+    min-width: 120px;
+  }
   
   .nomargin{
     margin: 0;
@@ -264,9 +267,7 @@ export default defineComponent({
   }
   section{
     margin: 0 auto;
-    &.sec-100vh{
-      height: 100vh;
-    }
+    
   }
 
   button{
@@ -297,6 +298,9 @@ export default defineComponent({
     .resp-justify{
       text-align: justify !important;
     }
+    .resp-1-5em{
+      font-size: 1.5em;
+    }
     .resp-3-5em{
       font-size: 3.5em;
     }
@@ -305,14 +309,23 @@ export default defineComponent({
     }
     .resp-display-block{
       display: block;
+        &.resp-align-center{
+          align-items: center;
+        }
     }
     .resp-no-min-width{
       min-width: 0;
+    }
+    .resp-no-margin{
+      margin: 0;
     }
     .resp-margin{
       &.top{
         &.px20{
           margin-top: 20px;
+        }
+        &.px30{
+          margin-top: 30px;
         }
         &.px60{
           margin-top: 60px;
@@ -360,6 +373,14 @@ export default defineComponent({
       }
     }
 
+  }
+
+  @media screen and (min-width: 941px){
+
+    .sec-100vh{
+      height: 100vh;
+    }
+    
   }
 
 </style>
